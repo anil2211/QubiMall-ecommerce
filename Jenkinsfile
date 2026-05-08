@@ -17,7 +17,7 @@ pipeline {
         stage('Cleanup Workspace') {
             steps {
                 script {
-                    clean_ws()
+                    vars/clean_ws.groovy
                 }
             }
         }

@@ -1,4 +1,4 @@
-# 🛍️ QualiBytesShop - Modern E-commerce Platform
+# 🛍️ QubiMall - Modern E-commerce Platform
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.1.0-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
@@ -6,7 +6,7 @@
 [![Redux](https://img.shields.io/badge/Redux-2.2.1-purple?style=flat-square&logo=redux)](https://redux.js.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-QualiBytesShop is a modern, full-stack e-commerce platform built with Next.js 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
+QubiMall is a modern, full-stack e-commerce platform built with Next.js 14, TypeScript, and MongoDB. It features a beautiful UI with Tailwind CSS, secure authentication, real-time cart updates, and a seamless shopping experience.
 
 ## ✨ Features
 
@@ -22,7 +22,7 @@ QualiBytesShop is a modern, full-stack e-commerce platform built with Next.js 14
 
 ## 🏗️ Architecture
 
-QualiBytesShop follows a three-tier architecture pattern:
+QubiMall follows a three-tier architecture pattern:
 
 ### 1. Presentation Tier (Frontend)
 - Next.js React Components
