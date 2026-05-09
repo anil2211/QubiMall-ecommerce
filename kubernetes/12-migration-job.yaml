@@ -3,6 +3,9 @@ kind: Job
 metadata:
   name: db-migration
   namespace: qbshop
+  annotations:
+    argocd.argoproj.io/sync-options: Replace=true
+
 spec:
   template:
     spec:
@@ -13,4 +16,5 @@ spec:
         env:
         - name: MONGODB_URI
           value: "mongodb://mongodb-service:27017/easyshop"
+
       restartPolicy: OnFailure
