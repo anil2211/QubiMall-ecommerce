@@ -97,7 +97,7 @@ sudo ./aws/install
 1. **Clone the Repository:**
 First, clone this repo to your local machine:<br/>
 ```bash
-git clone https://github.com/Satyams-git/Qualibytes-Ecommerce
+git clone https://github.com/anil2211/QubiMall-ecommerce.git
 cd terraform
 ```
 2. **Generate SSH Key Pair:**
@@ -426,8 +426,8 @@ kubectl get svc nginx-ingress-ingress-nginx-controller -n ingress-nginx -o jsonp
 > > data:
 > >   MONGODB_URI: "mongodb://mongodb-service:27017/easyshop"
 > >   NODE_ENV: "production"
-> >   NEXT_PUBLIC_API_URL: "https://qbshop.asriv.shop/api"
-> >   NEXTAUTH_URL: "https://qbshop.asriv.shop/"
+> >   NEXT_PUBLIC_API_URL: "https://qbshop.qubimall.online/api"
+> >   NEXTAUTH_URL: "https://qbshop.qubimall.online/"
 > >   NEXTAUTH_SECRET: "HmaFjYZ2jbUK7Ef+wZrBiJei4ZNGBAJ5IdiOGAyQegw="
 > >   JWT_SECRET: "e5e425764a34a2117ec2028bd53d6f1388e7b90aeae9fa7735f2469ea3a6cc8c"
 > > ```
